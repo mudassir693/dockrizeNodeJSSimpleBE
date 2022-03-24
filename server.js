@@ -8,7 +8,7 @@ const app = express()
 
 app.get('/',(req,res)=>{
     try {
-        return res.status(200).json({data:"Hello World",error:false})
+        return res.status(200).json({data:"?, YESSS!!!!",error:false})
     } catch (error) {
         console.log(error);
     }
